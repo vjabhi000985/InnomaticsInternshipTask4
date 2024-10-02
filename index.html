@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber Eats Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="d-flex align-items-center">
+      <img src="./assests/menu-btn.png" height="30px" class="mr-2">
+      <a class="navbar-brand" href="#">Uber Eats</a>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end">
+        <button class="btn btn-outline-secondary mr-2 login-btn" type="button">Log In</button>
+        <button class="btn btn-outline-dark" type="button">Sign Up</button>
+    </div>
+  </nav>
+  <!--End of the Navbar-->
+
+  <!--Main Section : Hero-->
+  <div class="container-fluid hero-section d-flex align-items-center justify-content-start"> <!-- Changed 'justify-content-center' to 'justify-content-start' -->
+    <div class="text-left"> <!-- Changed 'text-center' to 'text-left' -->
+      <h1 class="display-4">Order delivery near you</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter delivery address">
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="button">Search here</button>
+            </div>
+        </div>
+      <button class="btn btn-link" type="button">Or Sign In</button>
+    </div>
+  </div>
+  <!--Main Section : Hero Section Ends-->
+  
+
+  <!--Main Section : Card-->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card">
+            <img src="./assests/88d55f7112efe55f.webp" class="card-img-top" alt="Shake Image">
+            <div class="card-body text-center">
+                <h5 class="card-title">Refreshing Shakes</h5>
+                <p class="card-text">Cool down with our range of delicious and refreshing shakes.</p>
+                <a href="#" class="btn btn-dark">Order Now</a>
+            </div>
+          </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assests/711d51ca1b458931.webp" class="card-img-top" alt="Fries Image">
+          <div class="card-body text-center">
+            <h5 class="card-title">Crispy Fries</h5>
+            <p class="card-text">Enjoy perfectly crispy fries seasoned to perfection.</p>
+            <a href="#" class="btn btn-dark">Order Now</a>
+          </div>
+        </div>
+      </div>
+      
+        <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assests/16522a701585873b.webp" class="card-img-top" alt="Burger Image">
+          <div class="card-body text-center">
+              <h5 class="card-title">Delicious Burgers</h5>
+              <p class="card-text">Try our amazing range of burgers made with the freshest ingredients.</p>
+              <a href="#" class="btn btn-dark">Order Now</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!--Main Section : Card-->
+
+  <!-- Map Section -->
+  <div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2>Cities near me</h2>
+        <a href="#" class="btn btn-link">View all 500+ cities</a>
+    </div>
+
+    <!-- Gap before the map -->
+    <div class="my-4">
+        <img src="./assests/map.png" alt="US Map" class="img-fluid w-100"> <!-- Replace with actual image -->
+    </div>
+
+    <!-- Gap before the table -->
+    <div class="my-5">
+        <table class="table table-borderless">
+            <tbody>
+                <tr>
+                    <td>Los Angeles</td>
+                    <td>Miami</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Chicago</td>
+                    <td>Houston</td>
+                    <td>Phoenix</td>
+                </tr>
+                <tr>
+                    <td>San Francisco</td>
+                    <td>Seattle</td>
+                    <td>Dallas</td>
+                </tr>
+                <!-- Add more cities as needed -->
+            </tbody>
+        </table>
+    </div>
+  </div>
+
+
+  <!-- Countries Section -->
+<div class="container my-5">
+  <!-- Heading and Link -->
+  <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="mb-0">Countries with Uber Eats</h2>
+      <a href="#" class="btn btn-link">View all countries</a>
+  </div>
+
+  <!-- Countries List (Using Bootstrap Grid) -->
+  <div class="row">
+      <div class="col-md-3 col-sm-6 mb-4">
+          <ul class="list-unstyled">
+              <li class="py-1">Australia</li>
+              <li class="py-1">Belgium</li>
+              <li class="py-1">Canada</li>
+              <li class="py-1">Chile</li>
+              <li class="py-1">Costa Rica</li>
+              <li class="py-1">Dominican Republic</li>
+              <li class="py-1">Ecuador</li>
+              <li class="py-1">El Salvador</li>
+          </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <ul class="list-unstyled">
+              <li class="py-1">France</li>
+              <li class="py-1">Germany</li>
+              <li class="py-1">Guatemala</li>
+              <li class="py-1">Ireland</li>
+              <li class="py-1">Italy</li>
+              <li class="py-1">Japan</li>
+              <li class="py-1">Kenya</li>
+              <li class="py-1">Luxembourg</li>
+          </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <ul class="list-unstyled">
+              <li class="py-1">Mexico</li>
+              <li class="py-1">Netherlands</li>
+              <li class="py-1">New Zealand</li>
+              <li class="py-1">Panama</li>
+              <li class="py-1">Poland</li>
+              <li class="py-1">Portugal</li>
+              <li class="py-1">South Africa</li>
+              <li class="py-1">Spain</li>
+          </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 mb-4">
+          <ul class="list-unstyled">
+              <li class="py-1">Sri Lanka</li>
+              <li class="py-1">Sweden</li>
+              <li class="py-1">Switzerland</li>
+              <li class="py-1">Taiwan (ROC)</li>
+              <li class="py-1">United Kingdom</li>
+              <li class="py-1">United States</li>
+          </ul>
+      </div>
+  </div>
+</div>
+
+
+
+  <!-- <footer class="footer text-center mt-5">
+        <p>© 2024 Uber Eats Clone</p>
+    </footer> -->
+    <!-- Footer Section -->
+  <footer class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Uber Eats Logo -->
+            <div class="col-md-4 mb-4">
+                <h3 class="font-weight-bold">Uber Eats</h3>
+            </div>
+            
+            <!-- Links Section -->
+            <div class="col-md-4 mb-4">
+                <ul class="list-unstyled">
+                    <li class="py-1"><a href="#" class="text-dark">Get Help</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Buy gift cards</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Add your restaurant</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Sign up to deliver</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Create a business account</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Promotions</a></li>
+                </ul>
+            </div>
+            
+            <!-- Links Section -->
+            <div class="col-md-4 mb-4">
+                <ul class="list-unstyled">
+                    <li class="py-1"><a href="#" class="text-dark">Restaurants near me</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">View all cities</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">View all countries</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Pickup near me</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">About Uber Eats</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">Shop groceries</a></li>
+                    <li class="py-1"><a href="#" class="text-dark">English</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Store Links Section -->
+        <div class="row my-4">
+            <div class="col-md-6 mb-4">
+                <a href="#"><img src="/assests/download-on-the-app-store-apple-logo-svgrepo-com.svg" alt="App Store" class="img-fluid" width="150" height=""></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/200px-Google_Play_Store_badge_EN.svg.png" alt="Google Play Store" class="img-fluid ml-3" width="150"></a>
+            </div>
+        </div>
+
+        <!-- Social Media Icons and Privacy Links -->
+        <div class="row border-top pt-4">
+            <div class="col-md-6">
+                <a href="#"><i class="fab fa-facebook-f text-dark mx-2"></i></a>
+                <a href="#"><i class="fab fa-twitter text-dark mx-2"></i></a>
+                <a href="#"><i class="fab fa-instagram text-dark mx-2"></i></a>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark mx-2">Privacy Policy</a>
+                <a href="#" class="text-dark mx-2">Terms</a>
+                <a href="#" class="text-dark mx-2">Pricing</a>
+                <a href="#" class="text-dark mx-2">Do not sell or share my personal information</a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Text -->
+        <div class="row pt-3">
+            <div class="col text-center">
+                <small class="text-muted">&copy; 2024 Uber Technologies Inc.</small>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+</body>
+</html>

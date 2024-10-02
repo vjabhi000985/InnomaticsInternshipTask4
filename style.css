@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* styles.css */
+.hero-section {
+  background-image: url('./assests/burger_fries.webp'); /* Make sure this path is correct */
+  background-size: cover; 
+  background-position: center; 
+  height: 300px; /* Set a fixed height */
+}
+
+.hero-section .text-left {
+  text-align: left; /* Ensure text alignment is left */
+}
+
+
+
+/* If you want to ensure that other text elements are also normal */
+.hero-section .form-control, 
+.hero-section .btn-link {
+  font-weight: normal; /* Ensure these are not bold either */
+}
+
+.hero-section h1 {
+  color: #000;
+  font-weight: normal;
+}
+
+.input-group {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.login{
+  border: none;
+  border-radius: 10px;
+}
+
+.login:hover{
+  background-color: grey;
+  border: grey;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+      background-position: top;
+      height: 60vh;
+  }
+
+  .input-group {
+      width: 100%;
+      padding: 0 20px;
+  }
+
+  .navbar-brand {
+      font-size: 1.5rem;
+  }
+}
